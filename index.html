@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>inventory</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>inventory</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/index.js"></script>
+
+        <section id="sidebar">
+            <section id="calendar">
+                <pre class="clock"></pre>
+                <pre>
+<a class="prev_month"> &lt; </a><span class="header month">  month year  </span><a class="next_month"> &gt; </a>
+<span class="header day_of_week">Su Mo Tu We Th Fr Sa</span>
+<span class="dates"></span>
+                </pre>
+            </section>
+            <section id="options">
+                <a id="clear_selection">Clear selection</a>
+            </section>
+        </section>
+    </body>
 </html>
